@@ -1,12 +1,247 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    first html file
-    
-</body>
+<html>
+ <head>
+  <title>
+   Vigneto
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&amp;family=Roboto:wght@400;700&amp;display=swap" rel="stylesheet"/>
+  <style>
+   body {
+            margin: 0;
+            font-family: 'Roboto', sans-serif;
+        }
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+            border-bottom: 1px solid #ddd;
+        }
+        header img {
+            height: 50px;
+        }
+        header nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #333;
+        }
+        header .cta {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+        }
+        .hero {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .hero img {
+            width: 100%;
+            height: auto;
+        }
+        .hero .content {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .hero h1 {
+            font-family: 'Playfair Display', serif;
+            font-size: 3em;
+            margin: 0;
+        }
+        .hero p {
+            font-size: 1.2em;
+        }
+        .section {
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .section h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 2.5em;
+            color: #333;
+        }
+        .section p {
+            font-size: 1.1em;
+            color: #666;
+            max-width: 800px;
+            margin: 20px auto;
+        }
+        .section .btn {
+            background-color: #b59a3d;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+        }
+        .two-column {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .two-column .column {
+            flex: 1;
+            min-width: 300px;
+            max-width: 600px;
+        }
+        .two-column img {
+            width: 100%;
+            height: auto;
+        }
+        .footer {
+            background-color: #333;
+            color: #fff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+        .footer img {
+            height: 50px;
+        }
+        .footer nav a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+        }
+        .footer .social a {
+            margin: 0 10px;
+            color: #fff;
+        }
+  </style>
+ </head>
+ <body>
+  <header>
+    <img alt="Vigneto logo" height="50" src="https://storage.googleapis.com/a1aa/image/c8ORaGM8KypUPNQaAaU3UR9fQFqwCjXMoMzO9Yrfr9XMyRpTA.jpg" width="50"/>
+   <nav>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     About
+    </a>
+    <a href="#">
+     Services
+    </a>
+    <a href="#">
+     Contact
+    </a>
+   </nav>
+   <a class="cta" href="#">
+    Book Now
+   </a>
+  </header>
+  <div class="hero">
+   <img alt="Scenic vineyard view" height="600" src="https://storage.googleapis.com/a1aa/image/VtPzi1jJ1hKNHFpetPvy1VgZcfuXIfDryi398YZmEzUflIlOB.jpg" width="1200"/>
+   <div class="content">
+    <h1>
+     The ultimate food and wine experience
+    </h1>
+    <p>
+     Discover the best wines and culinary delights in a breathtaking setting.
+    </p>
+   </div>
+  </div>
+  <div class="section">
+   <h2>
+    Every Empty Bottle Is Filled With A Great Story
+   </h2>
+   <p>
+    From the rolling hills of our vineyards to your table, every bottle of wine we produce tells a story of passion, dedication, and a love for the craft. Join us on a journey through the world of wine and discover the stories behind each bottle.
+   </p>
+  </div>
+  <div class="hero">
+   <img alt="Friends enjoying wine in a vineyard" height="600" src="https://storage.googleapis.com/a1aa/image/etfaNTsK6JkQbUaFopTSz8gOyfuy4mlxJjZ9A7e2wXTrlIlOB.jpg" width="1200"/>
+   <div class="content">
+    <h2>
+     Wine Pairs Nicely With Good Friends
+    </h2>
+    <a class="btn" href="#">
+     Explore More
+    </a>
+   </div>
+  </div>
+  <div class="section">
+   <h2>
+    Adventure Is The Best Way To Learn Something New
+   </h2>
+   <p>
+    Embark on a journey of discovery with our guided tours and tastings. Learn about the history of our vineyards, the winemaking process, and the unique characteristics of each wine. Whether you're a seasoned connoisseur or a curious beginner, there's always something new to learn and experience.
+   </p>
+  </div>
+  <div class="section two-column">
+   <div class="column">
+    <img alt="Wine tasting event" height="400" src="https://storage.googleapis.com/a1aa/image/Fxae1wv0eJiIIklqfeJ3lkGt6qb85ZVUlwJZORVUNfWpLRKdC.jpg" width="600"/>
+    <h2>
+     Book Your Next Adventure
+    </h2>
+    <p>
+     Join us for a curated wine tasting experience and explore the best our vineyards have to offer. Book your adventure today and create unforgettable memories.
+    </p>
+    <a class="btn" href="#">
+     Book Now
+    </a>
+   </div>
+   <div class="column">
+    <h2>
+     Our Events
+    </h2>
+    <p>
+     <strong>
+      Wine Tasting:
+     </strong>
+     Join us for an exclusive wine tasting event and discover new favorites.
+    </p>
+    <p>
+     <strong>
+      Wine Tours:
+     </strong>
+     Take a guided tour of our vineyards and learn about the winemaking process.
+    </p>
+    <img alt="Scenic vineyard view" height="400" src="https://storage.googleapis.com/a1aa/image/VtPzi1jJ1hKNHFpetPvy1VgZcfuXIfDryi398YZmEzUflIlOB.jpg" width="600"/>
+   </div>
+  </div>
+  <div class="hero">
+   <img alt="Scenic vineyard view" height="600" src="https://storage.googleapis.com/a1aa/image/VtPzi1jJ1hKNHFpetPvy1VgZcfuXIfDryi398YZmEzUflIlOB.jpg" width="1200"/>
+   <div class="content">
+    <h2>
+     A New Adventure Is Waiting For You
+    </h2>
+   </div>
+  </div>
+  <footer class="footer">
+   <img alt="Vigneto logo" height="50" src="https://storage.googleapis.com/a1aa/image/c8ORaGM8KypUPNQaAaU3UR9fQFqwCjXMoMzO9Yrfr9XMyRpTA.jpg" width="50"/>
+   <nav>
+    <a href="#">
+     Home
+    </a>
+    <a href="#">
+     About
+    </a>
+    <a href="#">
+     Services
+    </a>
+    <a href="#">
+     Contact
+    </a>
+   </nav>
+   <div class="social">
+    <a href="#">
+     <i class="fab fa-facebook-f">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-twitter">
+     </i>
+    </a>
+    <a href="#">
+     <i class="fab fa-instagram">
+     </i>
+    </a>
+   </div>
+  </footer>
+ </body>
 </html>
